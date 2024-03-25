@@ -35,7 +35,7 @@ const postSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    desc: {
+    body: {
       type: String,
       required: true,
     },
@@ -55,5 +55,5 @@ const postSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const User = mongoose.models?.User || mongoose.model("User", userSchema);
-export const Post = mongoose.models?.Post || mongoose.model("Post", postSchema);
+export const User = mongoose.models?.User || mongoose.model("users", userSchema);
+export const Post = mongoose.models?.Post || mongoose.model("posts", postSchema);
