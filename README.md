@@ -1,1 +1,1 @@
-# nextjs-basics
+A next.js full stack web application
