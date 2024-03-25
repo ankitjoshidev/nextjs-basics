@@ -1,4 +1,5 @@
-Buit with Next.js, MongoDB
+Buit with (Next.js & MongoDB)
+
 Vercel Url - https://nextjs-basics-flax.vercel.app/
 
 If you want to clone -
