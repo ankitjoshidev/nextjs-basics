@@ -1,0 +1,65 @@
+.container {
+    /* Styles for the main container */
+  }
+  
+  .testimonial {
+    /* Styles for each testimonial block */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .image {
+    /* Styles for the user image */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .comment {
+    /* Styles for the testimonial comment */
+    font-style: italic;
+  }
+  
+  .name {
+    /* Styles for the user name */
+    font-weight: bold;
+  }
+  
+    
+  .formContainer {
+      flex: 1;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    .form input,
+    .form textarea {
+      padding: 20px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      background-color: var(--bgSoft);
+      color: var(--text);
+    }
+    
+    .form button {
+      padding: 20px;
+      background-color: var(--btn);
+      color: var(--text);
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
